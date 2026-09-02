@@ -1,4 +1,4 @@
-# Food Delivery Time Prediction
+# Food Delivery ETA Prediction
 
 Predict how many **minutes** a food delivery will take, given the order details —
 who is delivering it, how far it has to travel, the weather, traffic, time of day,
