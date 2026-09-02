@@ -86,22 +86,8 @@ food-delivery-time-prediction/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── data/
-│   ├── raw/
-│   │   └── Food_delivery.csv
-│   └── processed/
-│       ├── train.csv
-│       └── test.csv
-├── notebooks/
-│   ├── 01_data_cleaning_eda.ipynb
-│   ├── 02_model_linear_regression.ipynb
-│   ├── 03_model_decision_tree.ipynb
-│   ├── 04_model_random_forest.ipynb
-│   └── 05_model_xgboost.ipynb
-├── models/
-│   └── xgb_best.pkl
-├── outputs/
-│   └── metrics/
-│       └── model_comparison.csv
-└── standard_scaler.pkl
+├── Food_Delivery_Time_Prediction.ipynb   # the full, documented notebook
+├── food_delivery.csv                      # dataset (or link it in the README)
+├── xgb_best.pkl                           # saved best model
+└── standard_scaler.pkl                    # saved scaler
 ```
